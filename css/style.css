@@ -10,7 +10,8 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background: url('https://images.pexels.com/photos/4954713/pexels-photo-4954713.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center fixed;
+    background-size: cover;
 }
 .greetings{
     font-size: 6rem;
@@ -46,6 +47,18 @@ body{
 }
 .greetings > span:nth-child(7){
     animation-delay: 1.2s;
+}
+.greetings > span:nth-child(8){
+    animation-delay: 1.4s;
+}
+.greetings > span:nth-child(9){
+    animation-delay: 1.6s;
+}
+.greetings > span:nth-child(10){
+    animation-delay: 1.8s;
+}
+.greetings > span:nth-child(11){
+    animation-delay: 2s;
 }
 
 
